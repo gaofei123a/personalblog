@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family:"Myicon";
+	src: url("../font/glyphicons-halflings-regular.woff2");
+}
+body{
+	background-image: url("../image/bg.jpg");
+	position: relative;
+	text-align: center;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: #191818;
+	color: #fff;	
+}
+.container{
+	position: relative;
+	width: 1170px;
+	height: 50px;
+	margin: 0 auto;
+}
+.title{
+	float: left;
+	display: inline-block;
+	line-height: 50px;
+	text-decoration: none;
+	margin: 0 15px;
+}
+.menu{
+	float: left;
+	display: inline-block;
+}
+.menu > li{
+	float: left;
+	height: 50px;
+	width: 58px;
+	list-style: none;
+	line-height: 50px;
+}
+.menu > li > a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/* .search{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+} */
+.search > input{
+	display: inline-block;
+	position: absolute;
+	height: 22px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	outline: none;
+	border:  1px solid;
+	font-size: 14px;
+	top: 50%;
+	margin-top: -17px;
+}
+.search > button {
+	display: inline-block;
+	position: absolute;
+	width: 54px;
+	height: 34px;
+	padding: 5px 10px;
+	border-radius: 8px;
+	top: 50%;
+	margin-top: -17px;
+	right: 115px;
+}

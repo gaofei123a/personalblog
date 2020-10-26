@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>高飞的个人博客</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<a class="title">高飞的个人博客|技术博客</a>
+				<ul class="menu">
+					<li><a href="/">首页</a></li>
+					<li><a href="/">地图</a></li>
+					<li><a href="/">关于</a></li>
+					<li><a href="/">留言</a></li>
+				</ul>
+				<div class="search">
+					<input type="" placeholder="输入关键词查找" />
+					<button type="button">搜索</button>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<div class="content_left">
+				<div class="every_day">
+					<span class="ev_title">每日一句 ( 20201023 )  </span>
+					<div>Just trust yourself, then you will know how to live.</div>
+					<div class="ev_bottom">
+						<span>相信自己就对了，你将知道如何过日子。</span>
+						<span>———— Johann Wolfgang von Goethe</span>
+					</div>
+				</div>
+				<div class="article_list">
+					<div class="article">
+						<a href="/">Laravel5.4安装passport时遇到的一些问题</a>
+						<p>安装时可能不支持高版本，我使用了composer require laravel/passport ~4.0安装后执行迁移时nothing to migrate，需要手动注册Provider， 在config/app.php中providers中添加Laravel\Passport\PassportServiceProvider::class。执行php artisan passport:install时提示“There are no commands defined in the “passport” namespace.” 需要执行cache:clear和config:cache 更新缓存。...</p>
+						<div class="">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		    <div class="content_right">
+		    	
+		    </div>
+		</div>
+		<footer></footer>
+	</body>
+</html>

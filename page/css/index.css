@@ -1,0 +1,50 @@
+.content{
+	width: 1140px;
+	margin: 0 auto;
+}
+.content_left{
+	width: 66%;
+}
+.content_right{
+	width: 34%;
+}
+.every_day{
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	margin-top: 50px;
+	width: 100%;
+	padding: 10px 5px;
+	height: 120px;
+	box-shadow: 10px 10px 5px #888888; 
+}
+@font-face {
+	font-family:"Myicon";
+	src: url("../font/");
+}
+.every_day:before{
+	font-family: "Myicon";
+	content: "\el22";
+	color: aqua;
+	font-size: 12px;
+	position: relative;
+	display: block;
+	height: 0;
+	width: 20px;
+	left: 184px;
+}
+.every_day .ev_title{
+	display: block;
+	margin-top: -3px;
+	text-align: left;
+	padding-left: 10px;
+	border: 1px solid pink;
+}
+.every_day div{
+	text-align: left;
+	padding-left: 10px;
+}	
+.ev_bottom {
+	display: flex;
+	padding-left: 10px;
+	justify-content: space-between;
+}
